@@ -1,0 +1,7 @@
+{
+  "name": "connecty",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "ionic-angular"
+}

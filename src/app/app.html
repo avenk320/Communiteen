@@ -1,0 +1,27 @@
+<ion-menu persistent="true" [content]="mainContent">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>
+        Communiteen
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content id="side-menu21">
+    <ion-list id="teenConnect2-list1">
+      <ion-item color="none" menuClose="" on-click="goToTeenConnect()" id="teenConnect2-list-item1">
+        Home
+      </ion-item>
+      <ion-item color="none" href-inappbrowser="page2" id="teenConnect2-list-item2">
+        Recommendations
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToAbout()" id="teenConnect2-list-item3">
+        About us
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToLogin()" id="teenConnect2-list-item15">
+        Log Out
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav #mainContent [root]="rootPage"></ion-nav>
